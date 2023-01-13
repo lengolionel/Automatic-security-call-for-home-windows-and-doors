@@ -50,7 +50,7 @@ void updateSerial()
 
 //on window alert
 void Make_call(){
-    mySerial.println("ATD+250791406284"); //  change ZZ with country code and xxxxxxxxxxx with phone number to dial
+    mySerial.println("ATD+PHONE NUMBER HERE WITH COUNTRY CODE"); //  
   updateSerial();
   delay(20000); // wait for 20 seconds...
   mySerial.println("ATH"); //hang up
